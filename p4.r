@@ -1,0 +1,32 @@
+4) Write a R program that include linear algebra operation convectors and matrices
+
+x<-c(5,2,1,51,2)
+y<-c(7,91,5,2,13)
+z<-(x+y)
+print('addition')
+print(z)
+s<-x-y
+print('substraction')
+print(s)
+m<-x*y
+print('multiplication')
+print(m)
+d<-x/y
+print('division')
+print(d)
+a<-rbind(c(2,5,2),c(6,1,10))
+print(a)
+print(t(a))
+b<-diag(x=3)
+print(b)
+print('scalar multiplication matrix')
+print(2*a)
+c<-cbind(c(2,5,2),c(6,1,4))
+d<-cbind(c(-2,3,6),c(5,4,2))
+print('matrix addition')
+print(c+d)
+print('matrix substraction')
+print(c-d)
+print('matrix multiplication')
+e<-rbind(c(2,3,6),c(4,6,8))
+print(e%*%c)
