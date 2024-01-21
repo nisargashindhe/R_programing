@@ -1,3 +1,6 @@
+#8)Write a R program to create an any application of Linear Regression in multivariate context for predictive purpose.
+
+
 input <- mtcars[,c("mpg","disp","hp","wt")]
 # Create the relationship model.
 model <- lm(mpg~disp+hp+wt, data = input)
